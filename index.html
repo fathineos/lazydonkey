@@ -2,46 +2,29 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" >
+    <script src="vue.js"></script>
     <script src="main.js"></script>
     <link rel="stylesheet" type="text/css" href="main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>The lazy donkey music</title>
   </head>
   <body>
-    <header>
-      <img id="logo" src="lazydonkey_logo_blue_170.png" style="width: 340; height: 450">
-    </header>
-    <main align="center">
-      <article class="container">
-        <img src="https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fstatic.qobuz.com%2Fimages%2Fcovers%2F27%2F00%2F3760145920027_600.jpg" alt="Henry Texier - Varech" class="image">
-        <div class="overlay">
-          <div class="text">
-              Henry Texier - Varech<br/>
+    <div id="app">
+      <header>
+        <img id="logo" v-bind:src="'lazydonkey_logo_' + color + '_170.png'" alt="lazy donkey logo">
+      </header>
+      <main>
+        <article class="container" v-for="item in albumList">
+          <img
+            v-bind:src="'covers/' + item.id + '-thumbnail_500.jpg'"
+            v-bind:alt="item.name" class="image">
+          <div v-bind:class="'overlay ' + color">
+            <div class="text">{{ item.artist }} - {{ item.name }}</div>
           </div>
-        </div>
-      </article>
-      <article class="container">
-        <img src="https://cps-static.rovicorp.com/3/JPG_500/MI0004/141/MI0004141416.jpg" alt="Avatar" class="image">
-        <div class="overlay">
-          <div class="text">Henri Texier Album</div>
-        </div>
-      </article>
-      <article class="container">
-        <img src="https://cps-static.rovicorp.com/3/JPG_500/MI0002/495/MI0002495369.jpg?partner=allrovi.com" alt="Avatar" class="image">
-        <div class="overlay">
-          <div class="text">
-              Broadcast - Tender Buttons
-          </div>
-        </div>
-      </article>
-      <article class="container">
-        <img src="https://cps-static.rovicorp.com/3/JPG_500/MI0002/495/MI0002495369.jpg?partner=allrovi.com" alt="Avatar" class="image">
-        <div class="overlay">
-          <div class="text">
-              Broadcast - Tender Buttons
-          </div>
-        </div>
-      </article>
-    </main>
-</body>
+        </article>
+      </main>
+    </div>
+    <script src="albums.js"></script>
+    <script src="main.js"></script>
+  </body>
 </html>
