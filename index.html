@@ -3,7 +3,6 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" >
     <script src="vue.js"></script>
-    <script src="main.js"></script>
     <link rel="stylesheet" type="text/css" href="main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>The lazy donkey music</title>
@@ -11,15 +10,28 @@
   <body>
     <div id="app">
       <header>
-        <img id="logo" v-bind:src="'lazydonkey_logo_' + color + '_170.png'" alt="lazy donkey logo">
+        <img
+          id="logo"
+          v-bind:src="'lazydonkey_logo_' + color + '_170.png'"
+          alt="lazy donkey logo"/>
+          <nav>
+            <ul class="menu" v-for="mood in moodList">
+              <li class="menu-item"
+                v-bind:id="'mood-' + mood.name"
+                v-bind:class="{ active: mood.isActive }"
+                v-on:click="filter_mood">{{ mood.name }}
+              </li>
+            </ul>
+          </nav>
       </header>
       <main>
-        <article class="container" v-for="item in albumList">
+        <article class="container" v-for="album in albumList">
           <img
-            v-bind:src="'covers/' + item.id + '-thumbnail_500.jpg'"
-            v-bind:alt="item.name" class="image">
+            v-bind:src="'covers/' + album.id + '-thumbnail_500.jpg'"
+            v-bind:alt="album.name"
+            v-bind:id="'album-' + album.id" class="image">
           <div v-bind:class="'overlay ' + color">
-            <div class="text">{{ item.artist }} - {{ item.name }}</div>
+            <div class="text">{{ album.artist }} - {{ album.name }}</div>
           </div>
         </article>
       </main>
