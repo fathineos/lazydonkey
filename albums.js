@@ -1,12 +1,14 @@
-var PLAYFUL = "playful"
 var ATMOSPERIC = "atmosperic"
-var SPIRITUAL = "spiritual"
+var BITTERSWEET = "bittersweet"
+var BADASS = "badass"
+var DARK = "dark"
 var ENERGETIC = "energetic"
 var FUN = "fun"
-var BADASS = "badass"
-var RETRO = "retro"
-var DARK = "dark"
+var PLAYFUL = "playful"
 var POETIC = "poetic"
+var RELAXED = "relaxed"
+var RETRO = "retro"
+var SPIRITUAL = "spiritual"
 
 var albums = [
   {
@@ -228,7 +230,7 @@ var albums = [
     name: "The Modern Lovers",
     cover_art_url: "https://musicbrainz.org/release/8e8dfef6-6adf-34e3-89a9-37e920f1c9e6",
     spotify_uri: "spotify:album:5BPCP7WSGBG4br2o4WRmd8",
-    mood: [BITTERSHEET],
+    mood: [BITTERSWEET],
   }, {
     id: 31,
     artist: "Art Farmer",

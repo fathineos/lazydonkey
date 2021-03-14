@@ -27,7 +27,7 @@
       <main>
         <article class="container" v-for="album in albumList">
           <img
-            v-bind:src="'covers/' + album.id + '-thumbnail_500.jpg'"
+            v-bind:src="'covers/' + album.id + '.webp'"
             v-bind:alt="album.name"
             v-bind:id="'album-' + album.id" class="image">
           <div v-bind:class="'overlay ' + color">
