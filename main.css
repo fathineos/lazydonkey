@@ -7,6 +7,32 @@
   --theme-color-gray: #2E2E2E;
 }
 
+.red {
+    background-color: var(--theme-color-red);
+}
+.green {
+    background-color: var(--theme-color-green);
+}
+.blue {
+    background-color: var(--theme-color-blue);
+}
+
+.active {
+  font-weight: bold;
+}
+
+.text {
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 body {
   background-color: floralwhite;
   /*background-color: var(--theme-color-gray);*/
@@ -36,17 +62,16 @@ a:link, a:visited, a:hover {
 }
 a:active {
   color: darkslategrey;
-  font-weight: bold;
 }
 
-.menu {
+ul.menu {
   padding-left: 0px;
   cursor: pointer;
   list-style-type: none;
   text-transform: uppercase;
 }
 
-.menu-item {
+li.menu-item {
   border-top: solid black 1px;
   padding-top: 5px;
 }
@@ -54,65 +79,28 @@ a:active {
 /* Alignment
    https://kyusuf.com/post/almost-complete-guide-to-flexbox-without-flexbox/
 */
-.container {
+article.container {
   display: inline-block;
   position: relative;
   vertical-align: middle;
   width: var(--main-img-size-width);
   height: var(--main-img-size-height);
   cursor: pointer;
+  transition: height 1s ease;
+}
+article.container:hover {
+  height: var(--main-img-size-width);
 }
 
-.image {
+img.image {
   object-fit: cover;
   display: inline-block;
   width: var(--main-img-size-width);
   height: var(--main-img-size-height);
+  transition: height 1s ease;
 }
-
-/* Overlay Fade
-   https://www.w3schools.com/howto/howto_css_image_overlay.asp
-*/
-.overlay {
-  position: absolute;
-  top: 0px;
-  /*bottom: 10px;*/
-  left: 0px;
-  /*right: 10px;*/
-  height: var(--main-img-size-height);
-  width: var(--main-img-size-width);
-  opacity: 0;
-  transition: .5s ease;
-}
-
-.red {
-    background-color: var(--theme-color-red);
-}
-.green {
-    background-color: var(--theme-color-green);
-}
-.blue {
-    background-color: var(--theme-color-blue);
-}
-
-.container:hover .overlay {
-  opacity: 0.8;
-}
-
-.active {
-  font-weight: bold;
-}
-
-.text {
-  color: white;
-  font-size: 16px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+img.image:hover {
+  height: var(--main-img-size-width);
 }
 
 @media screen and (max-width: 600px) {

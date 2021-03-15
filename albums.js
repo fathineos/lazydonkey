@@ -275,3 +275,8 @@ var albums = [
     mood: [ENERGETIC],
   },
 ];
+
+albums.forEach(function(item){
+  parts = item.spotify_uri.split(":");
+  item["spotify_url"] = "https://open.spotify.com/" + parts[1] + "/" + parts[2];
+})
