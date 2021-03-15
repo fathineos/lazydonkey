@@ -19,7 +19,10 @@
               <li class="menu-item"
                 v-bind:id="'mood-' + mood.name"
                 v-bind:class="{ active: mood.isActive }"
-                v-on:click="filter_mood">{{ mood.name }}
+                v-on:click="filter_mood">
+                  <a v-bind:href="'#' + mood.name">
+                    {{ mood.name }}
+                  </a>
               </li>
             </ul>
           </nav>

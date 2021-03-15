@@ -28,6 +28,17 @@ main {
   overflow: hidden;
 }
 
+a {
+  text-decoration: none;
+}
+a:link, a:visited, a:hover {
+  color: black;
+}
+a:active {
+  color: darkslategrey;
+  font-weight: bold;
+}
+
 .menu {
   padding-left: 0px;
   cursor: pointer;
