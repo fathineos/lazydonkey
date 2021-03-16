@@ -1,23 +1,36 @@
 var moodAll = "all";
+var distinctMoods = new Set(
+  [moodAll].concat(
+    albums.reduce(
+      (acc, cur) => acc.concat(cur.mood),
+      []
+    ).sort()
+  )
+);
 
-function initializeMoods() {
-  distinctMoods = new Set(
-    ["all"].concat(
-      albums.reduce(
-        (acc, cur) => acc.concat(cur.mood),
-        []
-      ).sort()
-    )
-  );
-  moodList = []
-  distinctMoods.forEach(
-    mood => moodList.push({name: mood, isActive: mood === moodAll})
-  );
-  return moodList;
+function getActiveMood() {
+  mood = location.href.split('#').pop();
+  if (!distinctMoods.has(mood)) {
+    mood = moodAll;
+  }
+  return mood;
 }
 
-function initializeAlbumList() {
-  return randomizeList(albums);
+function filterAlbumsByMood(moodName) {
+  if (moodName === moodAll) {
+    albumList = albums;
+  } else {
+    albumList = albums.filter(album => album.mood.indexOf(moodName) >= 0);
+  }
+  return albumList;
+}
+
+function initializeMoodObjects(activeMood) {
+  moodList = []
+  distinctMoods.forEach(
+    mood => moodList.push({name: mood, isActive: mood === activeMood})
+  );
+  return moodList;
 }
 
 function randomizeList(list) {
@@ -29,29 +42,30 @@ function randomizeList(list) {
 var app = new Vue({
   el: "#app",
   data: {
-    // shuffle items order
-    albumList: initializeAlbumList(),
-    moodList: initializeMoods(),
-    // random color
-    color: randomizeList(["red", "blue", "green"])[0],
+    color: randomizeList(["red", "blue", "green"]).pop(),
+    moodList: initializeMoodObjects(),
+    albumList: albums,
+    activeMood: getActiveMood(),
+  },
+  created: function () {
+    this.albumList = randomizeList(
+      filterAlbumsByMood(this.activeMood)
+    );
+    this.moodList = initializeMoodObjects(this.activeMood);
   },
   methods: {
     filter_mood: function (event) {
-      moodName = event.currentTarget.id.split("-")[1];
+      this.activeMood = event.currentTarget.id.split("-")[1];
 
       // update active mood
       this.moodList.forEach(
-        mood => this.$set(mood, 'isActive',  moodName === mood.name)
+        mood => this.$set(mood, 'isActive',  this.activeMood === mood.name)
       );
 
       // update album list
-      if (moodName === moodAll) {
-        newAlbumList = albums;
-      } else {
-        newAlbumList = albums.filter(album => album.mood.indexOf(moodName) >= 0);
-      }
-
-      this.albumList = randomizeList(newAlbumList);
+      this.albumList = randomizeList(
+        filterAlbumsByMood(this.activeMood)
+      );
     }
   }
 });
