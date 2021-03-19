@@ -87,6 +87,7 @@ article.container {
   height: var(--main-img-size-height);
   cursor: pointer;
   transition: height 1s ease;
+  transition-delay: 0.5s;
 }
 article.container:hover {
   height: var(--main-img-size-width);
@@ -98,6 +99,7 @@ img.image {
   width: var(--main-img-size-width);
   height: var(--main-img-size-height);
   transition: height 1s ease;
+  transition-delay: 0.4s;
 }
 img.image:hover {
   height: var(--main-img-size-width);
