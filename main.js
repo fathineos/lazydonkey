@@ -1,6 +1,33 @@
-var moodAll = "all";
-var distinctMoods = new Set(
-  [moodAll].concat(
+const MOOD_ATMOSPERIC = "atmosperic";
+const MOOD_BITTERSWEET = "bittersweet";
+const MOOD_BADASS = "badass";
+const MOOD_DARK = "dark";
+const MOOD_ENERGETIC = "energetic";
+const MOOD_FUN = "fun";
+const MOOD_PLAYFUL = "playful";
+const MOOD_POETIC = "poetic";
+const MOOD_RELAXED = "relaxed";
+const MOOD_RETRO = "retro";
+const MOOD_SPIRITUAL = "spiritual";
+const MOOD_ALL = "all";
+
+const THEME_RED = "red";
+const THEME_GREEN = "green";
+const THEME_BLUE = "blue";
+
+// Pre-fetch album data synchronously
+let request = new XMLHttpRequest();
+request.open("GET", "./data.json", false);
+request.send(null);
+let albums = null;
+if (request.status === 200) {
+  albums = JSON.parse(request.responseText);
+} else {
+  console.log("Error loading album data:", request.status);
+}
+
+const distinctMoods = new Set(
+  [MOOD_ALL].concat(
     albums.reduce(
       (acc, cur) => acc.concat(cur.mood),
       []
@@ -11,13 +38,13 @@ var distinctMoods = new Set(
 function getActiveMood() {
   mood = location.href.split('#').pop();
   if (!distinctMoods.has(mood)) {
-    mood = moodAll;
+    mood = MOOD_ALL;
   }
   return mood;
 }
 
 function filterAlbumsByMood(moodName) {
-  if (moodName === moodAll) {
+  if (moodName === MOOD_ALL) {
     albumList = albums;
   } else {
     albumList = albums.filter(album => album.mood.indexOf(moodName) >= 0);
@@ -42,7 +69,7 @@ function randomizeList(list) {
 var app = new Vue({
   el: "#app",
   data: {
-    color: randomizeList(["red", "blue", "green"]).pop(),
+    color: randomizeList([THEME_BLUE, THEME_GREEN, THEME_RED]).pop(),
     moodList: initializeMoodObjects(),
     albumList: albums,
     activeMood: getActiveMood(),

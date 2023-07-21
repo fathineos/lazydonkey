@@ -1,0 +1,393 @@
+[
+  {
+    "id": 1,
+    "artist": "Henry Texier",
+    "name": "Varech",
+    "musicbrainz": {
+      "release_id": "1fa0d391-bfc1-48c1-83ad-33df8f1481a7",
+      "cover_art_id": "6899984206"
+    },
+    "spotify_uri": "spotify:album:3eshODPVedUsJMYIWB91Bq",
+    "mood": ["atmospheric"]
+  },
+    {
+    "id": 2,
+    "artist": "Roberto Musci",
+    "name": "Tower of Silence",
+    "musicbrainz": {
+      "release_id": "82342b9a-2548-463f-99ba-eae23f2c60e8",
+      "cover_art_id": "19092243553"
+    },
+    "spotify_uri": "spotify:album:0emZeMYklVE3LS97rGKN8S",
+    "mood": ["spiritual"]
+  },
+  {
+    "id": 3,
+    "artist": "Broadcast",
+    "name": "Tender Buttons",
+    "musicbrainz": {
+      "release_id": "111349e0-5427-4dfb-b419-e2e689861ebf",
+      "cover_art_id": "2276827431"
+    },
+    "spotify_uri": "spotify:album:28RidrxACWNtbrUNy9Ks1X",
+    "mood": ["atmospheric", "playful"]
+  },
+  {
+    "id": 4,
+    "artist": "The RH Factor",
+    "name": "Hard Groove",
+    "musicbrainz": {
+      "release_id": "832c274d-6b8d-4292-b3f5-f78dbfed373a",
+      "cover_art_id": "5836968806"
+    },
+    "spotify_uri": "spotify:album:7ocjymC4B0S00K0BZ71M9X",
+    "mood": ["energetic", "fun"]
+  },
+  {
+    "id": 5,
+    "artist": "Ramsey Lewis",
+    "name": "Mother Nature's Son",
+    "musicbrainz": {
+      "release_id": "1d5461d0-07c0-431a-b5b3-e7f8088642cd",
+      "cover_art_id": "18043607840"
+    },
+    "spotify_uri": "spotify:album:2igwXQzQjvRkRnQiHj3GWs",
+    "mood": ["relaxed", "fun"]
+  },
+  {
+    "id": 6,
+    "artist": "Sleaford Mods",
+    "name": "Key Markets",
+    "musicbrainz": {
+      "release_id": "f169af39-ef18-4e88-8cd2-93ee9042a552",
+      "cover_art_id": "21207230452"
+    },
+    "spotify_uri": "spotify:album:5v5XTM8IhfQUzKgaarEpPK",
+    "mood": ["energetic", "badass"]
+  },
+  {
+    "id": 7,
+    "artist": "Muddy Waters",
+    "name": "After the Rain",
+    "musicbrainz": {
+      "release_id": "ece11094-6655-4ff8-aa94-5e9bf0d06468",
+      "cover_art_id": "8120398891"
+    },
+    "spotify_uri": "spotify:album:0EPqCz0qUIjjdxU010PP2Q",
+    "mood": ["badass"]
+  },
+  {
+    "id": 8,
+    "artist": "Kurt Vile",
+    "name": "Bottle it In",
+    "musicbrainz": {
+      "release_id": "16e87af9-5300-442d-8b57-ffecfd1a6e06",
+      "cover_art_id": "21564009607"
+    },
+    "spotify_uri": "spotify:album:7lXj7neMWuwD4PTYkaToes",
+    "mood": ["bittersweet", "atmospheric"]
+  },
+  {
+    "id": 9,
+    "artist": "Brian Eno",
+    "name": "Another Green World",
+    "musicbrainz": {
+      "release_id": "ae71c892-ecb6-4834-b520-6c88351e3b6c",
+      "cover_art_id": "22845503641"
+    },
+    "spotify_uri": "spotify:album:6uoeezh45SYEb8lcT8gDTY",
+    "mood": ["atmospheric"]
+  },
+  {
+    "id": 10,
+    "artist": "Courtney Barnett",
+    "name": "Tell Me How You Really Feel",
+    "musicbrainz": {
+      "release_id": "27e3197a-7c02-4a27-b135-9768e1baecc6",
+      "cover_art_id": "19932343867"
+    },
+    "spotify_uri": "spotify:album:6dWD9BmFPTaOGP0SO7NJyM",
+    "mood": ["bittersweet"]
+  },
+  {
+    "id": 11,
+    "artist": "Don Cherry",
+    "name": "Brown Rice",
+    "musicbrainz": {
+      "release_id": "fbdc7d69-54a9-467e-9cd8-4506ea97d15d",
+      "cover_art_id": "33028020043"
+    },
+    "spotify_uri": "spotify:album:4g7WTSk1vwtx8rf330Wd7L",
+    "mood": ["spiritual"]
+  }, {
+    "id": 12,
+    "artist": "Dry Cleaning",
+    "name": "Sweet Princess",
+    "musicbrainz": {
+      "release_id": "04b5d964-1a71-4d3e-ad2d-5c46ffeb7407",
+      "cover_art_id": "30064312885"
+    },
+    "spotify_uri": "spotify:album:2RoDiBN2teda8nQ33CO2WR",
+    "mood": ["energetic"]
+  }, {
+    "id": 13,
+    "artist": "Kedr Livanskiy",
+    "name": "Adriana",
+    "musicbrainz": {
+      "release_id": "894aa635-5a57-4220-88f5-03eb4a7281f7",
+      "cover_art_id": "19775765656"
+    },
+    "spotify_uri": "spotify:album:34ynU7YpurAxR383tfswdl",
+    "mood": ["atmospheric", "dark"]
+  }, {
+    "id": 14,
+    "artist": "Cate le Bon",
+    "name": "Reward",
+    "musicbrainz": {
+      "release_id": "04ebf474-6351-4db2-8613-7baafed71232",
+      "cover_art_id": "23154500726"
+    },
+    "spotify_uri": "spotify:album:082FaK20Q5pWBugogTQbGW",
+    "mood": ["bittersweet", "playful"]
+  }, {
+    "id": 15,
+    "artist": "Fontaines D.C",
+    "name": "Dogrel",
+    "musicbrainz": {
+      "release_id": "cf9ccaf9-3b92-4372-9ea0-9044951710fd",
+      "cover_art_id": "22759015784"
+    },
+    "spotify_uri": "spotify:album:1i9PDv6BO8c8Y5lxMG6Lej",
+    "mood": ["energetic"]
+  }, {
+    "id": 16,
+    "artist": "Viagra Boys",
+    "name": "Street Worms",
+    "musicbrainz": {
+      "release_id": "05266659-d996-49ac-8e90-c164065228e3",
+      "cover_art_id": "21389403996"
+    },
+    "spotify_uri": "spotify:album:7GCnSXQc6H4vF8TU7hSdSk",
+    "mood": ["badass", "energetic"]
+  }, {
+    "id": 17,
+    "artist": "El-P",
+    "name": "Cancer 4 Cure",
+    "musicbrainz": {
+      "release_id": "25baebca-2e94-41f7-bd02-e5612213228a",
+      "cover_art_id": "1103994712"
+    },
+    "spotify_uri": "spotify:album:75QfNfqa1LT0R5MIRKqR2q",
+    "mood": ["badass", "energetic"]
+  }, {
+    "id": 18,
+    "artist": "Bobby Womack",
+    "name": "The Bravest Man in the Universe",
+    "musicbrainz": {
+      "release_id": "3bf599f8-bb7d-495a-8aa1-4666bb3478db",
+      "cover_art_id": "1231557898"
+    },
+    "spotify_uri": "spotify:album:75QfNfqa1LT0R5MIRKqR2q",
+    "mood": ["atmospheric", "poetic"]
+  }, {
+    "id": 19,
+    "artist": "Jon Hopkins",
+    "name": "Immunity",
+    "musicbrainz": {
+      "release_id": "a9b6f61e-1927-4c58-85fc-5f540349e304",
+      "cover_art_id": "10114519061"
+    },
+    "spotify_uri": "spotify:album:0Zpht5ek9rMGsGB5IYPjlz",
+    "mood": ["atmospheric"]
+  }, {
+    "id": 20,
+    "artist": "Can",
+    "name": "Future Days",
+    "musicbrainz": {
+      "release_id": "d4cb3915-f659-4c22-83f8-c265a0054872",
+      "cover_art_id": "20408261636"
+    },
+    "spotify_uri": "spotify:album:75o5qK7yKZIGyPDa7bWOPn",
+    "mood": ["playful"]
+  }, {
+    "id": 21,
+    "artist": "Lou Reed / John Cale",
+    "name": "Songs for Drella",
+    "musicbrainz": {
+      "release_id": "244d099e-9522-4f6e-ad62-d64fc274f907",
+      "cover_art_id": "10196143214"
+    },
+    "spotify_uri": "spotify:album:4Nyu5zVDr4XV6QOBCqdTrk",
+    "mood": ["bittersweet", "playful"]
+  }, {
+    "id": 22,
+    "artist": "Parquet Courts",
+    "name": "Wide Awake!",
+    "musicbrainz": {
+      "release_id": "2a827755-8940-40c6-8b3f-8dcb74dcaf02",
+      "cover_art_id": "19913252426"
+    },
+    "spotify_uri": "spotify:album:5uTI2HcpAywDP8Vo1DpJta",
+    "mood": ["energetic", "playful"]
+  }, {
+    "id": 23,
+    "artist": "The Desert Sessions",
+    "name": "Desert Seessions, Volumes 11 & 12",
+    "musicbrainz": {
+      "release_id": "62179626-f17b-4c90-8095-a73b72f664f1",
+      "cover_art_id": "24439153774"
+    },
+    "spotify_uri": "spotify:album:7xSi5UDcfXAzR7NWSpFJiL",
+    "mood": ["badass", "energetic"]
+  }, {
+    "id": 24,
+    "artist": "Emahoy Tsegué / Maryam Guèbrou",
+    "name": "Éthiopiques 21: Ethiopia Song",
+    "musicbrainz": {
+      "release_id": "fd107d3a-50d6-4def-8b21-cbe624a81b42",
+      "cover_art_id": "17292992784"
+    },
+    "spotify_uri": "spotify:album:7xSi5UDcfXAzR7NWSpFJiL",
+    "mood": ["playful"]
+  }, {
+    "id": 25,
+    "artist": "Stelios Petrakis / Efrén López / Bijan Chemirani",
+    "name": "Mavra Froudia",
+    "musicbrainz": {
+      "release_id": "7a6b5676-aa46-44ce-9adc-8cb558bb85ce",
+      "cover_art_id": "12900384047"
+    },
+    "spotify_uri": "spotify:album:3mxeBt8teQJUaPxCwEvA0D",
+    "mood": ["atmospheric"]
+  }, {
+    "id": 26,
+    "artist": "The Trypes",
+    "name": "Music for Neighbors",
+    "musicbrainz": {
+      "release_id": "6021faf9-5556-4945-b884-cff477bc3cd7",
+      "cover_art_id": "3783286455"
+    },
+    "spotify_uri": "spotify:album:1OqiXbj9qvIznc8QqkCpPPb",
+    "mood": ["bittersweet"]
+  }, {
+    "id": 27,
+    "artist": "Young Marble Giants",
+    "name": "Colossal Youth",
+    "musicbrainz": {
+      "release_id": "d43ec088-ce52-44a9-b58a-a34bd5fe7df6",
+      "cover_art_id": "16629301425"
+    },
+    "spotify_uri": "spotify:album:5wxOkqHT4xGadN56TAzF09",
+    "mood": ["bittersweet", "playful"]
+  }, {
+    "id": 28,
+    "artist": "Andy Stott",
+    "name": "Faith in Strangers",
+    "musicbrainz": {
+      "release_id": "2d7b9f35-fada-4497-bfc7-a74140e8ef50",
+      "cover_art_id": "8923141323"
+    },
+    "spotify_uri": "spotify:album:1BzMONuUlgUnqOrg2aQeAY",
+    "mood": ["atmospheric"]
+  }, {
+    "id": 29,
+    "artist": "Pye Corner Audio",
+    "name": "Stasis",
+    "musicbrainz": {
+      "release_id": "3c688f4b-0702-45e9-a630-fef5d64a2029",
+      "cover_art_id": "26324402423"
+    },
+    "spotify_uri": "spotify:album:4MEJL8b4fQQ908mzoTFT6P",
+    "mood": ["atmospheric", "retro"]
+  }, {
+    "id": 30,
+    "artist": "The Modern Lovers",
+    "name": "The Modern Lovers",
+    "musicbrainz": {
+      "release_id": "8e8dfef6-6adf-34e3-89a9-37e920f1c9e6",
+      "cover_art_id": "11436464822"
+    },
+    "spotify_uri": "spotify:album:5BPCP7WSGBG4br2o4WRmd8",
+    "mood": ["bittersweet"]
+  }, {
+    "id": 31,
+    "artist": "Art Farmer",
+    "name": "Crawl Space",
+    "musicbrainz": {
+      "release_id": "a8307c57-6f11-4453-83d5-1b345b21cc37",
+      "cover_art_id": "3635902595"
+    },
+    "spotify_uri": "spotify:album:5SNc8uwbqPHFxpdOsV808z",
+    "mood": ["atmospheric"]
+  }, {
+    "id": 32,
+    "artist": "Betty Davis",
+    "name": "They say I'm different",
+    "musicbrainz": {
+      "release_id": "f5ba0224-f5d1-4072-bf27-0c5b9c3c6e30",
+      "cover_art_id": "12465240464"
+    },
+    "spotify_uri": "spotify:album:6cnH06Wxjb2QqUHFa8PEwc",
+    "mood": ["energetic", "badass"]
+  }, {
+    "id": 33,
+    "artist": "Add N to (X)",
+    "name": "Avant Hard",
+    "musicbrainz": {
+      "release_id": "5c73e32b-fcba-4bc0-878b-3b8460dc3c52",
+      "cover_art_id": "24364306335"
+    },
+    "spotify_uri": "spotify:album:6cnH06Wxjb2QqUHFa8PEwc",
+    "mood": ["playful"]
+  }, {
+    "id": 34,
+    "artist": "Ariel Pink's Haunted Graffiti",
+    "name": "Mature Themes",
+    "musicbrainz": {
+      "release_id": "0c288084-0eda-4eb6-a218-3d938bcaa512",
+      "cover_art_id": "1701379168"
+    },
+    "spotify_uri": "spotify:album:08RdKFNm8Cu86FSzlhoAoh",
+    "mood": ["playful", "retro"]
+  }, {
+    "id": 35,
+    "artist": "The Dead Weather",
+    "name": "Horehound",
+    "musicbrainz": {
+      "release_id": "1461ddb2-8e8b-40fa-a6a9-2407fc966071",
+      "cover_art_id": "17365049000"
+    },
+    "spotify_uri": "spotify:album:1nxECUyuIZF5JCrO9Xo2jO",
+    "mood": ["energetic", "dark"]
+  }, {
+    "id": 36,
+    "artist": "Black Mountain",
+    "name": "In the Future",
+    "musicbrainz": {
+      "release_id": "f9356ad9-e0cf-4bb1-87b2-e75668fdbd27",
+      "cover_art_id": "13197806153"
+    },
+    "spotify_uri": "spotify:album:6Px7D6BKZIj4DuaRWsADBe",
+    "mood": ["energetic"]
+  }, {
+    "id": 37,
+    "artist": "Kahil El'Zabar Quartet",
+    "name": "A time for healing",
+    "musicbrainz": {
+      "release_id": "7a7c39a6-dabe-4b59-b9ff-c4d1229a10ad",
+      "cover_art_id": "32163848100"
+    },
+    "spotify_url": "spotify:album:4SjSZfSNn7q2UyrzsfAJKj",
+    "mood": ["spiritual"]
+  }, {
+    "id": 38,
+    "artist": "Kelly Lee Owens",
+    "name": "Inner Song",
+    "musicbrainz": {
+      "release_id": "599e5bc1-cbc1-4d85-978f-ccc573326b91",
+      "cover_art_id": "27246031612"
+    },
+    "spotify_url": "spotify:album:79fGMhdBAKmCiih3K8Gwqz",
+    "mood": ["atmospheric", "poetic"]
+  }
+]
