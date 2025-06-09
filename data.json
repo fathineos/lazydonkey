@@ -507,6 +507,51 @@
       "cover_art_id": "27246031612"
     },
     "spotify_url": "spotify:album:79fGMhdBAKmCiih3K8Gwqz",
-    "mood": ["atmospheric", "poetic"]
+    "mood": [
+      "atmospheric",
+      "poetic"
+    ]
+  },
+  {
+    "id": 39,
+    "artist": "Reymour",
+    "name": "Leviosa",
+    "musicbrainz": {
+      "release_id": "5f570de8-6663-4496-afa2-61897bda47f2",
+      "cover_art_id": "28775773370"
+    },
+    "spotify_url": "spotify:album:4dZlnblHaQxVDbUKkdVuL3",
+    "mood": [
+      "atmospheric",
+      "bittersweet"
+    ]
+  },
+  {
+    "id": 40,
+    "artist": "Kham Meslien",
+    "name": "Fantomes.. Futurs",
+    "musicbrainz": {
+      "release_id": "156ab35e-19fc-4e6e-add7-b41cfd14a194",
+      "cover_art_id": "33657912214"
+    },
+    "spotify_uri": "spotify:album:1D9axOGORyXV8UuM1ukX5n",
+    "mood": [
+      "atmospheric",
+      "poetic"
+    ]
+  },
+  {
+    "id": 41,
+    "artist": "Eric Burdon - War",
+    "name": "ERIC BURDON declares \"WAR\"",
+    "musicbrainz": {
+      "release_id": "9f2cceff-39e8-4bc1-882e-8fad500096a1",
+      "cover_art_id": "17965641600"
+    },
+    "spotify_uri": "spotify:album:3pk9jPRbqSTAvGWRtkVbcq",
+    "mood": [
+      "energetic",
+      "fun"
+    ]
   }
 ]
