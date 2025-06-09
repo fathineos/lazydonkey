@@ -8,9 +8,11 @@
       "cover_art_id": "6899984206"
     },
     "spotify_uri": "spotify:album:3eshODPVedUsJMYIWB91Bq",
-    "mood": ["atmospheric"]
+    "mood": [
+      "atmospheric"
+    ]
   },
-    {
+  {
     "id": 2,
     "artist": "Roberto Musci",
     "name": "Tower of Silence",
@@ -19,7 +21,9 @@
       "cover_art_id": "19092243553"
     },
     "spotify_uri": "spotify:album:0emZeMYklVE3LS97rGKN8S",
-    "mood": ["spiritual"]
+    "mood": [
+      "spiritual"
+    ]
   },
   {
     "id": 3,
@@ -30,7 +34,10 @@
       "cover_art_id": "2276827431"
     },
     "spotify_uri": "spotify:album:28RidrxACWNtbrUNy9Ks1X",
-    "mood": ["atmospheric", "playful"]
+    "mood": [
+      "atmospheric",
+      "playful"
+    ]
   },
   {
     "id": 4,
@@ -41,7 +48,10 @@
       "cover_art_id": "5836968806"
     },
     "spotify_uri": "spotify:album:7ocjymC4B0S00K0BZ71M9X",
-    "mood": ["energetic", "fun"]
+    "mood": [
+      "energetic",
+      "fun"
+    ]
   },
   {
     "id": 5,
@@ -52,7 +62,10 @@
       "cover_art_id": "18043607840"
     },
     "spotify_uri": "spotify:album:2igwXQzQjvRkRnQiHj3GWs",
-    "mood": ["relaxed", "fun"]
+    "mood": [
+      "relaxed",
+      "fun"
+    ]
   },
   {
     "id": 6,
@@ -63,7 +76,10 @@
       "cover_art_id": "21207230452"
     },
     "spotify_uri": "spotify:album:5v5XTM8IhfQUzKgaarEpPK",
-    "mood": ["energetic", "badass"]
+    "mood": [
+      "energetic",
+      "badass"
+    ]
   },
   {
     "id": 7,
@@ -74,7 +90,9 @@
       "cover_art_id": "8120398891"
     },
     "spotify_uri": "spotify:album:0EPqCz0qUIjjdxU010PP2Q",
-    "mood": ["badass"]
+    "mood": [
+      "badass"
+    ]
   },
   {
     "id": 8,
@@ -85,7 +103,10 @@
       "cover_art_id": "21564009607"
     },
     "spotify_uri": "spotify:album:7lXj7neMWuwD4PTYkaToes",
-    "mood": ["bittersweet", "atmospheric"]
+    "mood": [
+      "bittersweet",
+      "atmospheric"
+    ]
   },
   {
     "id": 9,
@@ -96,7 +117,9 @@
       "cover_art_id": "22845503641"
     },
     "spotify_uri": "spotify:album:6uoeezh45SYEb8lcT8gDTY",
-    "mood": ["atmospheric"]
+    "mood": [
+      "atmospheric"
+    ]
   },
   {
     "id": 10,
@@ -107,7 +130,9 @@
       "cover_art_id": "19932343867"
     },
     "spotify_uri": "spotify:album:6dWD9BmFPTaOGP0SO7NJyM",
-    "mood": ["bittersweet"]
+    "mood": [
+      "bittersweet"
+    ]
   },
   {
     "id": 11,
@@ -118,8 +143,11 @@
       "cover_art_id": "33028020043"
     },
     "spotify_uri": "spotify:album:4g7WTSk1vwtx8rf330Wd7L",
-    "mood": ["spiritual"]
-  }, {
+    "mood": [
+      "spiritual"
+    ]
+  },
+  {
     "id": 12,
     "artist": "Dry Cleaning",
     "name": "Sweet Princess",
@@ -128,8 +156,11 @@
       "cover_art_id": "30064312885"
     },
     "spotify_uri": "spotify:album:2RoDiBN2teda8nQ33CO2WR",
-    "mood": ["energetic"]
-  }, {
+    "mood": [
+      "energetic"
+    ]
+  },
+  {
     "id": 13,
     "artist": "Kedr Livanskiy",
     "name": "Adriana",
@@ -138,8 +169,12 @@
       "cover_art_id": "19775765656"
     },
     "spotify_uri": "spotify:album:34ynU7YpurAxR383tfswdl",
-    "mood": ["atmospheric", "dark"]
-  }, {
+    "mood": [
+      "atmospheric",
+      "dark"
+    ]
+  },
+  {
     "id": 14,
     "artist": "Cate le Bon",
     "name": "Reward",
@@ -148,8 +183,12 @@
       "cover_art_id": "23154500726"
     },
     "spotify_uri": "spotify:album:082FaK20Q5pWBugogTQbGW",
-    "mood": ["bittersweet", "playful"]
-  }, {
+    "mood": [
+      "bittersweet",
+      "playful"
+    ]
+  },
+  {
     "id": 15,
     "artist": "Fontaines D.C",
     "name": "Dogrel",
@@ -158,8 +197,11 @@
       "cover_art_id": "22759015784"
     },
     "spotify_uri": "spotify:album:1i9PDv6BO8c8Y5lxMG6Lej",
-    "mood": ["energetic"]
-  }, {
+    "mood": [
+      "energetic"
+    ]
+  },
+  {
     "id": 16,
     "artist": "Viagra Boys",
     "name": "Street Worms",
@@ -168,8 +210,12 @@
       "cover_art_id": "21389403996"
     },
     "spotify_uri": "spotify:album:7GCnSXQc6H4vF8TU7hSdSk",
-    "mood": ["badass", "energetic"]
-  }, {
+    "mood": [
+      "badass",
+      "energetic"
+    ]
+  },
+  {
     "id": 17,
     "artist": "El-P",
     "name": "Cancer 4 Cure",
@@ -178,8 +224,12 @@
       "cover_art_id": "1103994712"
     },
     "spotify_uri": "spotify:album:75QfNfqa1LT0R5MIRKqR2q",
-    "mood": ["badass", "energetic"]
-  }, {
+    "mood": [
+      "badass",
+      "energetic"
+    ]
+  },
+  {
     "id": 18,
     "artist": "Bobby Womack",
     "name": "The Bravest Man in the Universe",
@@ -188,8 +238,12 @@
       "cover_art_id": "1231557898"
     },
     "spotify_uri": "spotify:album:75QfNfqa1LT0R5MIRKqR2q",
-    "mood": ["atmospheric", "poetic"]
-  }, {
+    "mood": [
+      "atmospheric",
+      "poetic"
+    ]
+  },
+  {
     "id": 19,
     "artist": "Jon Hopkins",
     "name": "Immunity",
@@ -198,8 +252,11 @@
       "cover_art_id": "10114519061"
     },
     "spotify_uri": "spotify:album:0Zpht5ek9rMGsGB5IYPjlz",
-    "mood": ["atmospheric"]
-  }, {
+    "mood": [
+      "atmospheric"
+    ]
+  },
+  {
     "id": 20,
     "artist": "Can",
     "name": "Future Days",
@@ -208,8 +265,11 @@
       "cover_art_id": "41004410984"
     },
     "spotify_uri": "spotify:album:75o5qK7yKZIGyPDa7bWOPn",
-    "mood": ["playful"]
-  }, {
+    "mood": [
+      "playful"
+    ]
+  },
+  {
     "id": 21,
     "artist": "Lou Reed / John Cale",
     "name": "Songs for Drella",
@@ -218,8 +278,12 @@
       "cover_art_id": "10196143214"
     },
     "spotify_uri": "spotify:album:4Nyu5zVDr4XV6QOBCqdTrk",
-    "mood": ["bittersweet", "playful"]
-  }, {
+    "mood": [
+      "bittersweet",
+      "playful"
+    ]
+  },
+  {
     "id": 22,
     "artist": "Parquet Courts",
     "name": "Wide Awake!",
@@ -228,8 +292,12 @@
       "cover_art_id": "19913252426"
     },
     "spotify_uri": "spotify:album:5uTI2HcpAywDP8Vo1DpJta",
-    "mood": ["energetic", "playful"]
-  }, {
+    "mood": [
+      "energetic",
+      "playful"
+    ]
+  },
+  {
     "id": 23,
     "artist": "The Desert Sessions",
     "name": "Desert Seessions, Volumes 11 & 12",
@@ -238,28 +306,38 @@
       "cover_art_id": "24439153774"
     },
     "spotify_uri": "spotify:album:7xSi5UDcfXAzR7NWSpFJiL",
-    "mood": ["badass", "energetic"]
-  }, {
+    "mood": [
+      "badass",
+      "energetic"
+    ]
+  },
+  {
     "id": 24,
-    "artist": "Emahoy Tsegué / Maryam Guèbrou",
-    "name": "Éthiopiques 21: Ethiopia Song",
+    "artist": "Emahoy Tsegu\u00e9 / Maryam Gu\u00e8brou",
+    "name": "\u00c9thiopiques 21: Ethiopia Song",
     "musicbrainz": {
       "release_id": "fd107d3a-50d6-4def-8b21-cbe624a81b42",
       "cover_art_id": "17292992784"
     },
     "spotify_uri": "spotify:album:7xSi5UDcfXAzR7NWSpFJiL",
-    "mood": ["playful"]
-  }, {
+    "mood": [
+      "playful"
+    ]
+  },
+  {
     "id": 25,
-    "artist": "Stelios Petrakis / Efrén López / Bijan Chemirani",
+    "artist": "Stelios Petrakis / Efr\u00e9n L\u00f3pez / Bijan Chemirani",
     "name": "Mavra Froudia",
     "musicbrainz": {
       "release_id": "7a6b5676-aa46-44ce-9adc-8cb558bb85ce",
       "cover_art_id": "12900384047"
     },
     "spotify_uri": "spotify:album:3mxeBt8teQJUaPxCwEvA0D",
-    "mood": ["atmospheric"]
-  }, {
+    "mood": [
+      "atmospheric"
+    ]
+  },
+  {
     "id": 26,
     "artist": "The Trypes",
     "name": "Music for Neighbors",
@@ -268,8 +346,11 @@
       "cover_art_id": "3783286455"
     },
     "spotify_uri": "spotify:album:1OqiXbj9qvIznc8QqkCpPPb",
-    "mood": ["bittersweet"]
-  }, {
+    "mood": [
+      "bittersweet"
+    ]
+  },
+  {
     "id": 27,
     "artist": "Young Marble Giants",
     "name": "Colossal Youth",
@@ -278,8 +359,12 @@
       "cover_art_id": "16629301425"
     },
     "spotify_uri": "spotify:album:5wxOkqHT4xGadN56TAzF09",
-    "mood": ["bittersweet", "playful"]
-  }, {
+    "mood": [
+      "bittersweet",
+      "playful"
+    ]
+  },
+  {
     "id": 28,
     "artist": "Andy Stott",
     "name": "Faith in Strangers",
@@ -288,8 +373,11 @@
       "cover_art_id": "8923141323"
     },
     "spotify_uri": "spotify:album:1BzMONuUlgUnqOrg2aQeAY",
-    "mood": ["atmospheric"]
-  }, {
+    "mood": [
+      "atmospheric"
+    ]
+  },
+  {
     "id": 29,
     "artist": "Pye Corner Audio",
     "name": "Stasis",
@@ -298,8 +386,12 @@
       "cover_art_id": "26324402423"
     },
     "spotify_uri": "spotify:album:4MEJL8b4fQQ908mzoTFT6P",
-    "mood": ["atmospheric", "retro"]
-  }, {
+    "mood": [
+      "atmospheric",
+      "retro"
+    ]
+  },
+  {
     "id": 30,
     "artist": "The Modern Lovers",
     "name": "The Modern Lovers",
@@ -308,8 +400,11 @@
       "cover_art_id": "11436464822"
     },
     "spotify_uri": "spotify:album:5BPCP7WSGBG4br2o4WRmd8",
-    "mood": ["bittersweet"]
-  }, {
+    "mood": [
+      "bittersweet"
+    ]
+  },
+  {
     "id": 31,
     "artist": "Art Farmer",
     "name": "Crawl Space",
@@ -318,8 +413,11 @@
       "cover_art_id": "3635902595"
     },
     "spotify_uri": "spotify:album:5SNc8uwbqPHFxpdOsV808z",
-    "mood": ["atmospheric"]
-  }, {
+    "mood": [
+      "atmospheric"
+    ]
+  },
+  {
     "id": 32,
     "artist": "Betty Davis",
     "name": "They say I'm different",
@@ -328,8 +426,12 @@
       "cover_art_id": "12465240464"
     },
     "spotify_uri": "spotify:album:6cnH06Wxjb2QqUHFa8PEwc",
-    "mood": ["energetic", "badass"]
-  }, {
+    "mood": [
+      "energetic",
+      "badass"
+    ]
+  },
+  {
     "id": 33,
     "artist": "Add N to (X)",
     "name": "Avant Hard",
@@ -338,8 +440,11 @@
       "cover_art_id": "24364306335"
     },
     "spotify_uri": "spotify:album:6cnH06Wxjb2QqUHFa8PEwc",
-    "mood": ["playful"]
-  }, {
+    "mood": [
+      "playful"
+    ]
+  },
+  {
     "id": 34,
     "artist": "Ariel Pink's Haunted Graffiti",
     "name": "Mature Themes",
@@ -348,8 +453,12 @@
       "cover_art_id": "1701379168"
     },
     "spotify_uri": "spotify:album:08RdKFNm8Cu86FSzlhoAoh",
-    "mood": ["playful", "retro"]
-  }, {
+    "mood": [
+      "playful",
+      "retro"
+    ]
+  },
+  {
     "id": 35,
     "artist": "The Dead Weather",
     "name": "Horehound",
@@ -358,8 +467,12 @@
       "cover_art_id": "17365049000"
     },
     "spotify_uri": "spotify:album:1nxECUyuIZF5JCrO9Xo2jO",
-    "mood": ["energetic", "dark"]
-  }, {
+    "mood": [
+      "energetic",
+      "dark"
+    ]
+  },
+  {
     "id": 36,
     "artist": "Black Mountain",
     "name": "In the Future",
@@ -368,8 +481,11 @@
       "cover_art_id": "13197806153"
     },
     "spotify_uri": "spotify:album:6Px7D6BKZIj4DuaRWsADBe",
-    "mood": ["energetic"]
-  }, {
+    "mood": [
+      "energetic"
+    ]
+  },
+  {
     "id": 37,
     "artist": "Kahil El'Zabar Quartet",
     "name": "A time for healing",
@@ -378,8 +494,11 @@
       "cover_art_id": "32163848100"
     },
     "spotify_url": "spotify:album:4SjSZfSNn7q2UyrzsfAJKj",
-    "mood": ["spiritual"]
-  }, {
+    "mood": [
+      "spiritual"
+    ]
+  },
+  {
     "id": 38,
     "artist": "Kelly Lee Owens",
     "name": "Inner Song",
