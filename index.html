@@ -31,7 +31,7 @@
       </header>
       <main>
         <article class="container" v-for="album in albumList">
-          <a v-bind:href="album.spotify_url">
+          <a v-bind:href="album.spotify_uri">
             <img
               v-bind:src="'covers/' + album.id + '-thumbnail_500.webp'"
               v-bind:alt="album.name"
