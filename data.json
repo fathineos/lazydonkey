@@ -553,5 +553,19 @@
       "energetic",
       "fun"
     ]
+  },
+  {
+    "id": 42,
+    "artist": "The Coathangers",
+    "name": "Nosebleed Weekend",
+    "musicbrainz": {
+      "release_id": "3c7ec844-a2d8-4203-8c14-a6692491b57b",
+      "cover_art_id": "13323541997"
+    },
+    "spotify_uri": "spotify:album:2WMf4mZNZTlTLDb43XZHkd",
+    "mood": [
+      "energetic",
+      "playful"
+    ]
   }
 ]
